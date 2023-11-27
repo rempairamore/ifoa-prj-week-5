@@ -1,0 +1,339 @@
+body {
+  color: #191919;
+  font-size: 16px;
+  z-index: 1;
+}
+
+header {
+  display: flex;
+  background-color: #ffc017;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  border: 0.5px solid black;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+
+a {
+  text-decoration: none;
+  color: #191919;
+}
+
+nav {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.logo {
+  margin-right: 22%;
+}
+
+nav img {
+  padding: 1.5em;
+}
+
+nav ul li {
+  margin: 1em;
+  font-size: 0.8em;
+}
+
+.start {
+  background-color: #191919;
+  border-radius: 1.3em;
+}
+
+.start li a {
+  color: white;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+.container {
+  width: 100%;
+  justify-content: space-between;
+  border: 1px solid black;
+}
+
+article {
+  width: 100%;
+  background-color: #ffc017;
+}
+
+article,
+.boxGiganteSinistra,
+.boxGiganteDestra,
+.container,
+.imgTrend {
+  display: flex;
+}
+
+.spazioStorie {
+  width: 65%;
+  font-size: 1.5em;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+.boxGiganteSinistra {
+  flex-flow: column wrap;
+  margin: 5em auto;
+  justify-content: space-between;
+}
+
+.bottone1 {
+  background-color: #191919;
+  border-radius: 1.3em;
+  width: 25%;
+  padding: 0.7em;
+  text-align: center;
+  font-size: 1.2em;
+}
+
+.bottone1 p {
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+
+article h1 {
+  font-size: 7em;
+  font-family: "Spectral", serif;
+  letter-spacing: -0.05em;
+}
+
+section {
+  width: 100%;
+  border: 0.5px solid lightgrey;
+}
+
+.trends {
+  width: 76%;
+  margin: 2em auto;
+  font-family: "Roboto", sans-serif;
+}
+
+.imgTrend p {
+  margin: 1em;
+  font-family: "Roboto", sans-serif;
+}
+
+.numero p {
+  font-size: 2em;
+  font-family: "Roboto", sans-serif;
+  color: #e6e7e7;
+}
+.boxTrend {
+  width: 26%;
+  display: flex;
+  flex-flow: row;
+  margin-top: 1em;
+}
+
+section .boxTrend img {
+  border-radius: 30%;
+}
+section .boxTrend img:first-child {
+  border-radius: 50%;
+}
+
+.trendContainer {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.numero {
+  margin-right: 0.5em;
+}
+
+.autore {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  margin-bottom: 0.5em;
+  padding-bottom: 0.5em;
+}
+
+.autore img {
+  margin-right: 0.5em;
+  width: 1.2em;
+}
+
+.descrizioneArticolo p:last-child {
+  padding-top: 1em;
+  font-weight: 200;
+  font-size: 0.8em;
+}
+
+.descrizioneArticolo p:first-of-type {
+  font-weight: 900;
+  font-size: 0.9em;
+}
+
+.autore p {
+  font-size: 0.8em;
+}
+
+.descrizioneArticolo span,
+.infoCorrLeft span {
+  margin: 0.5em;
+  font-weight: 600;
+}
+
+.imgTrend {
+  margin-bottom: 1em;
+}
+
+.contenitoreTuttoCorrelati {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 3em;
+  font-family: "Roboto", sans-serif;
+}
+
+.rightTitle {
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 0.9em;
+  margin-bottom: 1em;
+}
+
+.rightdivs {
+  display: flex;
+  flex-flow: row wrap;
+  font-size: 1em;
+  color: grey;
+}
+
+.divInformativo {
+  padding: 0.4em;
+  border: 1px solid lightgray;
+  margin-right: 0.8em;
+  margin-bottom: 0.5em;
+}
+
+.correlatiBoxDiDestra {
+  width: 30%;
+}
+
+.footerRight {
+  width: 90%;
+  display: inline-block;
+}
+
+.footerRight ul {
+  list-style: none;
+  display: flex;
+  flex-flow: row wrap;
+  padding-right: 5em;
+}
+
+.footerRight ul li {
+  margin-right: 0.8em;
+  margin-bottom: 0.6em;
+}
+
+hr {
+  opacity: 0.4;
+  margin: 1.5em auto;
+}
+
+.footerRight ul li a {
+  color: grey;
+}
+
+.correlatatiBox {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: end;
+}
+
+.immRelativaBox img {
+  width: 50%;
+}
+
+.autoreCorr {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+}
+
+.autoreCorr img {
+  border-radius: 50%;
+  width: 1.6em;
+}
+
+.autoreCorr span {
+  font-weight: 500;
+  font-size: 0.8em;
+  margin-left: 0.7em;
+}
+
+.descCorr h3 {
+  font-weight: 900;
+  font-size: 1.3em;
+  margin-bottom: 0.7em;
+  margin-top: 0.5em;
+}
+
+.descCorr p {
+  color: grey;
+  margin-bottom: 1em;
+}
+
+.descCorr {
+  width: 90%;
+}
+
+.infoCorrLeft p {
+  font-weight: 200;
+}
+
+.infoCorr {
+  display: flex;
+  flex-flow: row;
+}
+
+.infoCorr {
+  display: flex;
+  flex-flow: row;
+}
+
+.infoCorrLeft {
+  display: flex;
+  flex-flow: row;
+  width: 95%;
+  flex-flow: row;
+  align-items: center;
+}
+
+.boxRelativoSX {
+  width: 50%;
+}
+
+strong {
+  background-color: #f2eeee;
+  border-radius: 1em;
+  padding: 0.4em;
+  font-size: 0.9em;
+  margin-right: 0.5em;
+}
+
+.correlatiSinistra {
+  margin-bottom: 1.5em;
+}
+
+.sinistraTuttoCorrelati {
+  width: 63%;
+}
